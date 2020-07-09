@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,66 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.navBar {
+  background-color: gray;
+  /* font-size: larger; */
+  /* font-weight: 800; */
+  /* box-sizing: border-box; */
+  /* border: 10px 10px; */
+  margin: 10px 10px;
+  display: flex;
+  /* padding: 10px; */
+}
+
+.linkBar {
+/* .navBar Link { */
+  margin: 0 10px;
+}
+
+.productsTitle {
+  text-align: center;
+}
+
+
+.productsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productsContainer > div {
+  /* text-justify: center; */
+  margin: 0 0 50px 50px;
+  text-align: center;
+}
+
+.productsContainer > div:hover {
+  /* border: solid #000088; */
+  /* box-shadow: 5px 10px #000088; */
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.productItem {
+  text-align: center;
+}
+
+.productItem > button{
+  width: 20%;
+  font-size: 20px;
+}
+
+.productItem > button:hover {
+  background-color: grey;
+}
+
+
+.homeContainer {
+  text-align: center;
+  font-size: larger;
+  margin: 0 30%;
+  line-height: 1.6;
+}
+
+.linkContainer > button:hover {
+  background-color: grey;
 }
