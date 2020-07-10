@@ -17,7 +17,7 @@ import {Globalprovider, GlobalContext} from './Context/GlobalState';
 function App() {
 
   const {cart} = useContext(GlobalContext);
-  console.log(cart); 
+  // console.log(cart); 
   const totalItems = () => {
     let total = 0;
     cart.forEach((product) => total += product.quantity);
