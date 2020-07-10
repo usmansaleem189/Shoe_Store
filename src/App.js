@@ -12,7 +12,7 @@ import {ProductItem} from './ProductItem';
 import {Error} from './Error';
 import {Cart} from './Cart';
 import {CheckOut} from './CheckOut' 
-import {Globalprovider, GlobalContext} from './Context/GlobalState';
+import {GlobalContext} from './Context/GlobalState';
 
 function App() {
 
@@ -27,7 +27,7 @@ function App() {
 const cartItems = totalItems();
 
   return (
-    <Globalprovider>
+    <>
     <Router>
       <nav className="navBar">
         <Link to="/" className="linkBar"><h2>Home</h2></Link>
@@ -48,7 +48,7 @@ const cartItems = totalItems();
 
       </Routes>
     </Router>
-    </Globalprovider>
+    </>
   );
 }
 
