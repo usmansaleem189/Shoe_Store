@@ -74,6 +74,12 @@
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+.productsContainer button:hover {
+  /* border: solid #000088; */
+  /* box-shadow: 5px 10px #000088; */
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 .productItem {
   text-align: center;
 }
@@ -98,3 +104,58 @@
 .linkContainer > button:hover {
   background-color: grey;
 }
+
+
+.cartContainer {
+  text-align: center;
+  font-size: larger;
+}
+
+.tableContainer{
+  border: 1px solid black;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tableContainer thead{
+  color: green;
+}
+.tableContainer tbody{
+  color: blue;
+}
+.tableContainer tfoot{
+  color: red;
+}
+.tableContainer th,td{
+  border: 1px solid black;
+}
+.tableContainer button{
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.checkOutButton {
+margin-top: 50px;
+width: 20%;
+font-size: large;
+background-color: #CC0000;
+color: white;
+padding: 10px;
+}
+
+.checkOut {
+  margin-top: 10%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  border: solid black;
+  border-style: ridge;
+  padding: 10px;
+  text-align: center;
+}
+
+.emptyCart {
+  text-align: center;
+  margin-top: 10%;
+}
+
