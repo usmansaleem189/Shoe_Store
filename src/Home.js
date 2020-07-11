@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 export function Home() {
     return (
@@ -16,6 +17,9 @@ export function Home() {
                 itaque dolores culpa consequuntur. Quidem distinctio incidunt sequi
                 laboriosam nemo provident explicabo illo!
             </h3>
+            <Link to="/products">
+                <button className="checkOutButton">Shop Now</button>
+            </Link>
         </div>
     )
 
